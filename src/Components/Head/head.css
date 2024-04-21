@@ -1,0 +1,29 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+    color:#170017;
+    margin: auto 100px;
+}
+
+.infoList {
+    list-style: none;
+    display: flex;
+    font-size: 20px; 
+}
+
+.infoList a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.LogoName h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.infoList a:hover {
+    cursor: pointer;
+    color: rgb(121, 12, 143);
+}

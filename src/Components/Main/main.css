@@ -1,0 +1,41 @@
+.mainContainer {
+    display: flex;
+    margin: auto 100px;
+    padding: 100px 280px;
+    border-bottom: 0.5px solid  black;
+}
+
+.myImage img {
+    height: 450px;
+    border-radius: 20px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+}
+
+.textAbout {
+    text-align: left;
+    padding-left: 28px;
+}
+
+.textAbout p{
+    font-size: 25px;
+}
+
+.textAbout h1{
+    font-size: 45px;
+}
+
+.mainText img {
+    height: 40px;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.mainText img:hover {
+    transform: scale(1.30);
+    cursor: pointer;
+}

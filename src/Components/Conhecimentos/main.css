@@ -1,0 +1,23 @@
+.container {
+    margin-top: 100px;
+}
+
+.conhecimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conhecimentos ul,
+.conhecimentos li,
+.learning ul,
+.learning li{
+    list-style: none;
+    display: inline;
+}
+
+.conhecimentos img,
+.learning img{
+    height: 70px;
+    padding-right: 50px;
+}

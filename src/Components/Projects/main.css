@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin: 10px 35px;
+    padding-bottom: 20px;
+}
+
+.card {
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(36, 36, 36);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    background-color: rgb(152, 152, 152);
+    /*Temporario*/
+    height: 200px;
+}
+
+.card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+/*
+.card img {
+    max-width: 60%;
+    height: 90%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.card p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(88, 88, 88);
+}
+*/
