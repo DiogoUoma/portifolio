@@ -1,0 +1,51 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  margin-top: 8%;
+  margin-bottom: 80px;
+}
+
+.text-container h3 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.text-container h1 {
+  font-weight: 900;
+  font-size: 150px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-banner {
+  font-size: 70px;
+}
+
+.link-container {
+  align-items: center;
+  margin: auto 20px;
+  transition: 2s;
+}
+
+.link-container p,
+a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 900;
+  color: #000;
+}
+
+.link-container:hover {
+  transform: scale(1.2);
+}

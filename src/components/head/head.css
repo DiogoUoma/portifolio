@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #000;
+  position: absolute;
+  padding: 10px 5px;
+  top: 0;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+header h1 {
+  color: #fff;
+}
+
+.head-container ul,
+li {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  list-style: none;
+  font-weight: 700;
+}
+
+.head-container a,
+p {
+  list-style: none;
+}
+
+.lista-link a {
+  color: #fff;
+}
+
+.lista-link a:hover {
+  color: #ff6be6;
+}
+
+@media (max-width: 1024px) {
+  header {
+    display: none;
+  }
+}
