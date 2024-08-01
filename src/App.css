@@ -12,9 +12,10 @@ body {
 
 .App {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
 }
 
