@@ -49,3 +49,38 @@ a {
 .link-container:hover {
   transform: scale(1.2);
 }
+
+@media (max-width: 1024px) {
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-container h1 {
+    font-weight: 900;
+    font-size: 70px;
+  }
+
+  .icon-banner {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 728px) {
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-container h1 {
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .icon-banner {
+    font-size: 50px;
+  }
+}
