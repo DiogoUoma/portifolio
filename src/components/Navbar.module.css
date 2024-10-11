@@ -1,0 +1,24 @@
+.navbar {
+  width: 8rem;
+  height: 100vh;
+  position: fixed;
+  background-color: #343434;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: #eee;
+}
+
+hr {
+  width: 70%;
+}
+
+.navbar_list {
+  list-style: none;
+  margin-top: 1.5rem;
+}
