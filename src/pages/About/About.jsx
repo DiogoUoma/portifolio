@@ -16,7 +16,7 @@ import {
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <div className={styles.container_about}>
         <img src={programmer} className={styles.about_img} />
         <div className={styles.about_text}>

@@ -1,0 +1,28 @@
+.contact_container {
+  margin: 18rem 10rem 0 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_container p {
+  font-size: 1.5em;
+}
+
+.contact_item {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_item a {
+  font-size: 3em;
+  color: #eee;
+  margin-right: 1em;
+  transition: transform 0.5s;
+}
+
+.contact_container a:hover {
+  transform: scale(1.5);
+}

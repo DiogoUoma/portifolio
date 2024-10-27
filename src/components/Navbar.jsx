@@ -12,27 +12,43 @@ import { IoPersonCircle } from "react-icons/io5";
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <a href="https:\\www.twitch.tv/joyaruki" className={styles.icon}>
+      <a href="#home" className={styles.icon}>
         <AiFillHome />
       </a>
       <hr />
-      <ul className={styles.navbar_list}>
-        <li className="navbar_list_link">
-          <a href="#">
-            <IoPersonCircle className={styles.icon} />
-          </a>
-        </li>
-        <li className="navbar_list_link">
-          <a href="#">
-            <AiFillMerge className={styles.icon} />
-          </a>
-        </li>
-        <li className="navbar_list_link">
-          <a href="#">
-            <AiOutlineMail className={styles.icon} />
-          </a>
-        </li>
-      </ul>
+      <div>
+        <ul className={styles.navbar_list}>
+          <li className="navbar_list_link">
+            <a href="#about">
+              <IoPersonCircle className={styles.icon} />
+            </a>
+          </li>
+          <li className="navbar_list_link">
+            <a href="#projects">
+              <AiFillMerge className={styles.icon} />
+            </a>
+          </li>
+          <li className="navbar_list_link">
+            <a href="#contact">
+              <AiOutlineMail className={styles.icon} />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul className={styles.socials_link}>
+          <li className="navbar_social_link">
+            <a href="https://github.com/DiogoUoma">
+              <AiFillGithub className={styles.icon} />
+            </a>
+          </li>
+          <li className="navbar_social_link">
+            <a href="https://www.linkedin.com/in/diogouoma/">
+              <AiFillLinkedin className={styles.icon} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

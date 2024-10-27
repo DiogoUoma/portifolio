@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Home.module.css";
-import myImg from "../../assets/me.png";
+import myImg from "../../assets/me2.jpg";
 
 const Home = () => {
   return (
-    <div className={styles.container_home}>
+    <div className={styles.container_home} id="home">
       <div className={styles.home_text}>
         <h1>Bem-vindo!</h1>
         <p>me chamo</p>

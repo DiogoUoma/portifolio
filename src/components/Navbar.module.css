@@ -9,9 +9,14 @@
 }
 
 .icon {
-  font-size: 2rem;
+  font-size: 3rem;
   padding-top: 1rem;
   color: #eee;
+  transition: transform 0.5s;
+}
+
+.icon:hover {
+  transform: scale(1.5);
 }
 
 hr {
@@ -21,4 +26,9 @@ hr {
 .navbar_list {
   list-style: none;
   margin-top: 1.5rem;
+}
+
+.socials_link {
+  list-style: none;
+  margin-top: 30em;
 }

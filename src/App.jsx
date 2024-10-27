@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
+import Connect from "./pages/Connect/Connect";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <Connect />
       </div>
       <Footer />
     </div>
