@@ -4,11 +4,14 @@
   background-color: #1a1124;
   background: linear-gradient(to right, #1a1124, #000);
   clip-path: polygon(0 60%, 100% 0, 100% 100%, 0 100%);
+  margin-right: 106px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .content {
-  display: flex;
   flex-direction: column;
   text-align: end;
   padding-top: 240px;
+  margin-right: 106px;
 }
