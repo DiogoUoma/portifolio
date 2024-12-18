@@ -1,0 +1,27 @@
+.contato_container {
+  height: 70vh;
+  background: linear-gradient(to top, #000, #1a1124);
+  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.contact_content {
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.contact_content h1 {
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.contact_content a {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact_content a:hover {
+  color: #9d64de;
+}
