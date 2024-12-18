@@ -1,0 +1,18 @@
+.projects_container {
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15em;
+}
+
+.title {
+  height: 252px;
+  background-color: #1a1124;
+  display: flex;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 64px;
+  padding-left: 106px;
+}
