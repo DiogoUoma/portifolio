@@ -2,7 +2,7 @@ import "./Background.css";
 
 const Background = () => {
   return (
-    <div className="backgroun_container">
+    <div className="background_container">
       <h1>Background</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
