@@ -2,16 +2,28 @@
   margin-top: 15em;
   margin-left: 30%;
   text-align: center;
-  padding: 10px 0;
-  width: 660px;
-  height: 698px;
+  width: 600px;
+  height: 670px;
   color: #fff;
-  background-color: #1a1124;
+  background: linear-gradient(to top, #000, #160d20);
+  border-radius: 40px;
+  z-index: 200;
 }
 
 .skills h1 {
   font-size: 64px;
   font-weight: 400;
+  z-index: 100;
+}
+
+.background_skills {
+  background: linear-gradient(to top, #000, #1a1124);
+  border-radius: 30px;
+  clip-path: polygon(0 0, 99% 3%, 100% 100%, 6% 100%);
+  width: 602px;
+  height: 680px;
+
+  z-index: -1;
 }
 
 .skills_container {
@@ -46,8 +58,6 @@
   width: 60px;
   height: 60px;
   margin: 0 10px;
-  background-color: black;
-  border-radius: 50%;
   padding: 10px;
   z-index: 100;
 }

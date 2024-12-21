@@ -1,18 +1,26 @@
 .contato_container {
   height: 70vh;
-  background: linear-gradient(to top, #000, #1a1124);
-  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+  background-color: #0f0a15;
+  z-index: 1;
 }
 
 .contact_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 70vh;
+  background: linear-gradient(to top, #000 20%, #150c1f 60%);
+  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
   text-align: center;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 40px;
+  z-index: 20;
 }
 
 .contact_content h1 {
   font-weight: 400;
   font-size: 64px;
+  z-index: 5;
 }
 
 .contact_content a {
@@ -20,6 +28,7 @@
   font-size: 20px;
   text-decoration: none;
   color: inherit;
+  z-index: 5;
 }
 
 .contact_content a:hover {

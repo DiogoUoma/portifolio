@@ -3,7 +3,9 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contato_container">
+      {/* backgorund 1 */}
       <div className="contact_content">
+        {/* background 2 */}
         <h1>Contate-me</h1>
         <a href="mailto:diogouoma3105@gmail.com?subject=Olá!&body=Escreva sua mensagem aqui.">
           <p>diogouoma3105@gmail.com</p>
