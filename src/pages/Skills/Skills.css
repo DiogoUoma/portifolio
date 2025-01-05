@@ -5,17 +5,12 @@
   width: 600px;
   height: 670px;
   color: #fff;
-<<<<<<< HEAD
-  background: linear-gradient(to top, #000, #160d20);
-  border-radius: 40px;
-  z-index: 200;
-=======
   border-radius: 50px;
   background-color: #1a1124;
->>>>>>> af7d8c565c85465eb4cfcc23c75571542dc349bf
 }
 
 .skills h1 {
+  padding-top: 20px;
   font-size: 64px;
   font-weight: 400;
   z-index: 100;
@@ -23,22 +18,20 @@
 
 .background_skills {
   background: linear-gradient(to top, #000, #1a1124);
-  border-radius: 30px;
-  clip-path: polygon(0 0, 99% 3%, 100% 100%, 6% 100%);
-  width: 602px;
-  height: 680px;
-
+  border-radius: 50px;
+  clip-path: polygon(0 0, 100% 3%, 100% 100%, 6% 100%);
+  width: 600px;
+  height: 670px;
   z-index: -1;
 }
 
 .skills_container {
   display: flex;
-  justify-content: center; /* Espaço entre as colunas */
+  justify-content: center;
   align-items: center;
+  padding-top: 30px;
   gap: 40px;
-  clip-path: polygon(0 0, 100% 11%, 100% 100%, 10% 100%);
   z-index: 2;
-  background-color: aqua;
 }
 
 .column {

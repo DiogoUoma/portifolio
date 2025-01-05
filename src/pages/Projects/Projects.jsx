@@ -1,5 +1,6 @@
 import "./Projects.css";
 import MainCard from "../../components/MainCard.jsx";
+import Cards from "../../components/Cards.jsx";
 
 const Projects = () => {
   return (
@@ -9,7 +10,7 @@ const Projects = () => {
           <h1>Projects</h1>
         </div>
       </div>
-      <div className="content">
+      <div className="content_projects">
         <div className="main_projects">
           <MainCard
             name={"Projeto em andamento"}
@@ -20,7 +21,21 @@ const Projects = () => {
             description={"A descrição do segundo projeto"}
           />
         </div>
-        <div className="other_projects"></div>
+
+        <div className="more_projects">
+          <Cards
+            name={"Outro Projeto 1"}
+            description={"Descrição do primeiro projeto"}
+          />
+          <Cards
+            name={"Outro Projeto 2"}
+            description={"Descrição do segundo projeto"}
+          />
+          <Cards
+            name={"Outro Projeto 3"}
+            description={"Descrição do terceiro projeto"}
+          />
+        </div>
       </div>
     </div>
   );

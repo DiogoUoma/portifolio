@@ -1,5 +1,5 @@
 .projects_container {
-  height: 170vh;
+  height: 160vh;
   display: flex;
   flex-direction: column;
   margin-top: 15em;
@@ -26,9 +26,23 @@
   padding-top: 25px;
 }
 
+.content_projects {
+  padding: 12rem 4rem;
+}
+
 .main_projects {
   display: flex;
-  justify-content: space-around; /* ou 'space-around' */
-  gap: 20rem;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10rem;
+  flex-wrap: wrap;
+}
+
+.more_projects {
+  padding-top: 10rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
   flex-wrap: wrap;
 }
