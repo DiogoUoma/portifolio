@@ -5,12 +5,16 @@ const Background = () => {
     <div className="background_container">
       <h1>Background</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+        Possuo experiência em desenvolvimento web com foco no usuário.
         <br />
-        distinctio repudiandae ipsam maiores voluptates, tenetur iste alias vel?
+        Experiência no desenvolvimento front-end utilizando HTML, CSS e
+        JavaScript.
         <br />
-        Iusto omnis ad ducimus corrupti perspiciatis dignissimos nostrum in eius
-        corporis error?
+        Utilização de metodologias ágeis como Scrum e Kanban para acompanhamento
+        de projetos.
+        <br />
+        Atendimento ao cliente para entendimento de necessidades e
+        desenvolvimento de soluções.
       </p>
     </div>
   );

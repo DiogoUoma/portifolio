@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "Uni Sans";
+  src: url("./assets/fonts/UniSansHeavy.otf");
+}
+
 body {
+  font-family: "Uni Sans", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #000;

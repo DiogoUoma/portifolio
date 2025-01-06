@@ -5,23 +5,19 @@ const About = () => {
     <div className="about_container">
       <div className="backgorund_about">
         <div className="content_about">
-          <h1>About me</h1>
+          <h1>Sobre mim</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
-            temporibus, ab hic dolor eum ipsa modi! Veritatis quidem quas
-            ratione
+            Sou um Engenheiro de Software onde durante os meus estudos me
+            identifiquei com o desenvolvimento front-end e me apaixonei por
+            criar interfaces web intuitivas e responsivas. Com experiência em
+            HTML5, CSS3 e JavaScript, busco sempre aplicar as melhores práticas
+            de desenvolvimento para entregar projetos de alta qualidade.
             <br />
-            placeat impedit, molestiae obcaecati rem ab earum, eveniet possimus
-            temporibus.
-          </p>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quis
-            inventore, quisquam facilis vel mollitia voluptatum magni numquam
-            est
-            <br />
-            exercitationem expedita adipisci quidem rerum sint delectus fuga
-            obcaecati. Excepturi, tenetur.
+            Possuo habilidade com frameworks como o React e o Angular, além de
+            conhecimentos com bibliotecas como o JQuery e Bootstrap. Também sou
+            proficiente no uso de ferramentas de versionamento como Git e
+            GitHub, o que me permite colaborar eficientemente em equipes ágeis e
+            projetos de desenvolvimento contínuo.
           </p>
         </div>
       </div>

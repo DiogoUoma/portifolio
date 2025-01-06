@@ -6,40 +6,38 @@ import { BiLogoSpringBoot } from "react-icons/bi";
 const Skills = () => {
   return (
     <div className="skills">
-      <div className="background_skills">
-        <h1>Skills</h1>
-        <div className="skills_container">
-          {/* HTML, CSS, REACT, JAVA, SPRING BOOT, Node */}
-          {/* Primeira coluna de skills */}
-          <div className="column">
-            <div className="row">
-              <p>HTML</p>
-              <FaHtml5 className="icon" />
-            </div>
-            <div className="row">
-              <p>CSS</p>
-              <FaCss3Alt className="icon" />
-            </div>
-            <div className="row">
-              <p>Javascript</p>
-              <FaJs className="icon" />
-            </div>
+      <h1>Habilidades</h1>
+      <div className="skills_container">
+        {/* HTML, CSS, REACT, JAVA, SPRING BOOT, Node */}
+        {/* Primeira coluna de skills */}
+        <div className="column">
+          <div className="row">
+            <p>HTML</p>
+            <FaHtml5 className="icon" />
           </div>
+          <div className="row">
+            <p>CSS</p>
+            <FaCss3Alt className="icon" />
+          </div>
+          <div className="row">
+            <p>JS</p>
+            <FaJs className="icon" />
+          </div>
+        </div>
 
-          {/* Segunda coluna de skills */}
-          <div className="column">
-            <div className="row">
-              <FaReact className="icon" />
-              <p>React</p>
-            </div>
-            <div className="row">
-              <BiLogoSpringBoot className="icon" />
-              <p>Spring Boot</p>
-            </div>
-            <div className="row">
-              <FaJava className="icon" />
-              <p>Java</p>
-            </div>
+        {/* Segunda coluna de skills */}
+        <div className="column">
+          <div className="row">
+            <FaReact className="icon" />
+            <p>React</p>
+          </div>
+          <div className="row">
+            <BiLogoSpringBoot className="icon" />
+            <p>Spring Boot</p>
+          </div>
+          <div className="row">
+            <FaJava className="icon" />
+            <p>Java</p>
           </div>
         </div>
       </div>

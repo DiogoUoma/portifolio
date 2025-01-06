@@ -6,23 +6,14 @@
   height: 670px;
   color: #fff;
   border-radius: 50px;
-  background-color: #1a1124;
+  background: linear-gradient(to top, #000, #1a1124);
 }
 
 .skills h1 {
-  padding-top: 20px;
+  padding-top: 40px;
   font-size: 64px;
   font-weight: 400;
   z-index: 100;
-}
-
-.background_skills {
-  background: linear-gradient(to top, #000, #1a1124);
-  border-radius: 50px;
-  clip-path: polygon(0 0, 100% 3%, 100% 100%, 6% 100%);
-  width: 600px;
-  height: 670px;
-  z-index: -1;
 }
 
 .skills_container {
