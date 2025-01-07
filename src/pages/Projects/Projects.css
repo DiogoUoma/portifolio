@@ -2,7 +2,8 @@
   height: 160vh;
   display: flex;
   flex-direction: column;
-  margin-top: 15em;
+  margin-top: 12em;
+  margin-bottom: 15%;
 }
 
 .background_title {
@@ -45,4 +46,31 @@
   justify-content: space-around;
   gap: 10rem;
   flex-wrap: wrap;
+}
+
+@media (min-width: 1200px) {
+  .projects_container {
+    margin-bottom: 0;
+  }
+}
+
+/* notebook */
+@media screen and (max-width: 1024px) {
+  .projects_container {
+    height: 180vh;
+    margin-bottom: 50%;
+  }
+}
+
+/* Ipad */
+@media screen and (max-width: 768px) {
+  .projects_container {
+    height: 200vh;
+    margin-bottom: 70em;
+  }
+  .title h1 {
+    font-size: 64px;
+    padding-left: 60px;
+    padding-top: 25px;
+  }
 }

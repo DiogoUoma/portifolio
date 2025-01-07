@@ -1,7 +1,8 @@
-.contato_container {
+.contact_container {
   height: 70vh;
   background-color: #0f0a15;
   z-index: 1;
+  margin-top: 55%;
 }
 
 .contact_content {
@@ -33,4 +34,17 @@
 
 .contact_content a:hover {
   color: #9d64de;
+}
+
+@media (min-width: 1200px) {
+  .contact_container {
+    margin-top: 0;
+  }
+
+  .contact_content a {
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+    z-index: 5;
+  }
 }
