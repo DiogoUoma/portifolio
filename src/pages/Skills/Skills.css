@@ -57,7 +57,7 @@
   z-index: 4;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   .skills {
     margin-left: 30%;
     justify-content: center;
