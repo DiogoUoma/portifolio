@@ -24,15 +24,15 @@ const Projects = () => {
 
         <div className="more_projects">
           <Cards
-            name={"Outro Projeto 1"}
+            name={"Projeto em andamento"}
             description={"Descrição do primeiro projeto"}
           />
           <Cards
-            name={"Outro Projeto 2"}
+            name={"Projeto em andamento"}
             description={"Descrição do segundo projeto"}
           />
           <Cards
-            name={"Outro Projeto 3"}
+            name={"Projeto em andamento"}
             description={"Descrição do terceiro projeto"}
           />
         </div>
