@@ -1,16 +1,30 @@
-# React + Vite
+# 💻 Portfólio - Diogo Uoma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e tecnologias que utilizo no desenvolvimento fullstack.
 
-Currently, two official plugins are available:
+O objetivo deste projeto é centralizar minhas principais aplicações, experiências e conhecimentos em desenvolvimento backend e frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React
+- Tailwind CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+### Ferramentas
+- Vite
+- Git
+- GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Funcionalidades
+
+- Página inicial moderna e responsiva
+- Seção sobre mim
+- Tecnologias e stacks utilizadas
+- Exibição de projetos
+- Área de contato
+- Interface responsiva para desktop e mobile
