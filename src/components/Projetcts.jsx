@@ -21,6 +21,14 @@ function Projects() {
       technologies: ["Java", "Spring Boot"],
       github: "https://github.com/DiogoUoma/itau-teste-1",
     },
+    ,
+    {
+      title: "WhatDo",
+      description:
+        "O WhatDo é uma aplicação web desenvolvida para ajudar usuários que estão sem ideias do que fazer no tempo livre",
+      technologies: ["Java", "Spring Boot", "React", "Gemini"],
+      github: "https://github.com/DiogoUoma/what-to-do",
+    },
   ];
 
   return (
